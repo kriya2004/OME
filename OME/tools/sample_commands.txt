@@ -1,0 +1,41 @@
+# Sample commands for testing the Order Matching Engine CLI
+
+# Submit buy orders
+NEW BUY 100 @ 9850
+NEW BUY 50 @ 9840
+NEW BUY 75 @ 9830
+
+# Submit sell orders
+NEW SELL 100 @ 9900
+NEW SELL 50 @ 9910
+NEW SELL 75 @ 9920
+
+# View top of book
+TOB
+
+# View full book
+DUMP 5
+
+# Submit order that crosses spread (will match)
+NEW BUY 25 @ 9900
+
+# Check book again
+TOB
+
+# Submit market order
+MARKET SELL 50
+
+# View statistics
+STATS
+
+# Cancel an order (use actual order ID from output)
+CANCEL 1
+
+# Replace an order
+REPLACE 2 100 @ 9845
+
+# Final book state
+DUMP
+
+# Exit
+EXIT
