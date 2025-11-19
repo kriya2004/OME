@@ -353,9 +353,8 @@ MIT License - See LICENSE file for details
 
 ## Author
 
-[Your Name]  
-GitHub: [Your GitHub Profile]  
-Email: [Your Email]
+Kriya Shah 
+Email: kriyajshah2004@gmail.com
 
 ## Acknowledgments
 
